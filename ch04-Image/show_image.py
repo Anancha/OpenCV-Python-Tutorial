@@ -6,8 +6,8 @@
 
 """
 show_image.py:
-制作有用的工具，日常使用
-在环境变量中设置：
+Make useful tools for daily use
+Set in environment variables:
 alias show='/Users/play/.py3/bin/python3.6 /Users/play/github/OpenCV-Python-Tutorial/ch04-图片/show_image.py '
 
 """
@@ -26,7 +26,7 @@ except Exception as e:
     print(e)
     sys.exit(-1)
 
-img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)  # 包括图像的 alpha 通道
+img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED) # Include the alpha channel of the image
 temp = img.copy()
 
 title = image_path.split('/')[-1] + f' {img.shape}'
@@ -38,7 +38,7 @@ while True:
     k = cv2.waitKey(10)
     if k == 27 or k == ord('q'):
         break
-    #TODO 分辨率太大，需要缩放
+    #TODO resolution is too large and needs to be scaled
     if k == ord('g'):
         # t = temp == img
         # if t.all():
