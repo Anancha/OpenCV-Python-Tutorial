@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\anuch\\miniconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\anuch\\miniconda3\\python.exe",
+    "svn.ignoreMissingSvnWarning": true
 }

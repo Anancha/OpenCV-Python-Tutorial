@@ -4,9 +4,9 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-# 为图像扩边，填充
-#如果你想在图像周围创建一个边框，就像相框一样
-# 经常在卷积运算或 0 填充时被用到。
+# Expand and fill the image
+#If you want to create a border around the image, just like a photo frame
+# Often used in convolution operations or 0 padding. 
 
 BLUE = [255, 0, 0]
 
