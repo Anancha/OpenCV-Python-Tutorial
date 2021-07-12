@@ -14,12 +14,12 @@ OpenCV图像坐标系_test.py:
 import numpy as np
 import cv2
 
-img = cv2.imread('../data/Lenna.png', cv2.IMREAD_UNCHANGED)
+img = cv2.imread('data/Lenna.png', cv2.IMREAD_UNCHANGED)
 print('img.shape:', img.shape)
-logo = cv2.imread('../data/opencv_logo.png', cv2.IMREAD_UNCHANGED)
+logo = cv2.imread('data/opencv_logo.png', cv2.IMREAD_UNCHANGED)
 logo = cv2.resize(logo, (20, 20))
 print('logo.shape:', logo.shape)
-butterfly= cv2.imread('../data/butterfly.jpg', cv2.IMREAD_UNCHANGED)
+butterfly= cv2.imread('data/butterfly.jpg', cv2.IMREAD_UNCHANGED)
 butterfly = cv2.resize(butterfly, (20, 20))
 print('butterfly.shape:', butterfly.shape)
 
