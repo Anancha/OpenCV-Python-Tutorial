@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/7/28 23:13
+# @Update  : 2021/7/14 by Anucha
 # @Author  : play4fun
-# @File    : OpenCV图像坐标系_test.py
-# @Software: PyCharm
+# @File    : OpenCVImage_coordinate_test.py
+# @Software: PyCharm, VS Code
 
 """
-OpenCV图像坐标系_test.py:
+OpenCVImage_coordinate_test.py:
 """
 
 # TODO
@@ -34,9 +35,9 @@ x = 50
 # print color values to screen
 print('bgr:',b,g,r)
 
-#先行后列
+#First row and then column
 #img[y:y+height,x:width]
-img[100:100 + logo.shape[0], 300:300 + logo.shape[1]] = logo[:, :, 0:3]# 两张图片的shape不一样
+img[100:100 + logo.shape[0], 300:300 + logo.shape[1]] = logo[:, :, 0:3]# The shapes of the two pictures are different
 # img[10:10+logo.shape[0],30:30+logo.shape[1],:]=logo[:,:,0:3]
 img[300:300 + logo.shape[1], 100:100 + logo.shape[0]] = butterfly[:, :, 0:3]
 
