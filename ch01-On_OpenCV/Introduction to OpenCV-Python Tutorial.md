@@ -1,4 +1,4 @@
-# 关于OpenCV
+# About OpenCV
 
 # Translate (Anucha- goolge tranalTE)
 OpenCV was started by Gary Bradsky at Intel in 1999, and the first version was released in 2000. Vadim Pisarevsky joined Gary Bradsky and is responsible for managing Intel’s Russian software OpenCV team.
@@ -7,10 +7,10 @@ In 2005, OpenCV was used to win the [2005 DARPA Grand Challenge] (https://en.wik
 
 OpenCV supports a variety of programming languages, such as C++, Python, Java, etc., and can be used on different platforms including Windows, Linux, OS X, Android and iOS. The high-speed GPU operating interface based on CUDA and OpenCL is also actively developing. 
 -----------------------------------------------------------------------------------------------------------------------------------
-OpenCV-Python是OpenCV的Python API，结合了OpenCV C ++ API的最佳特性和Python语言。
+
 OpenCV-Python is OpenCV's Python API, which combines the best features of OpenCV C++ API and the Python language. 
 
-## OpenCV中的Python
+## Python in OpenCV
 
 OpenCV-Python is a Python binding library for solving computer vision problems.
 
@@ -18,7 +18,7 @@ Python is a common programming language started by Guido van Rossum, which is ve
 
 Python is slower than languages such as C/C. That is, Python can be easily extended through C /C, which allows us to write compute-intensive code in C /C? and create python packaging that can be used as a Python module. This gives us two advantages: first, the code is as fast as the original C/C?code (because it actually works in the background), and second, it is easier to code than Python C/C? OpenCV-Python is the original OpenCV C-plus implementation of the Python wrapper.
 
-OpenCV-Python使用Numpy，它是一个高度优化的库，用于使用MATLAB风格的语法进行数值运算。所有OpenCV阵列结构都转换成Numpy数组。这也使得与使用Numpy的其他库（如SciPy和Matplotlib）更容易集成。
+OpenCV-Python uses Numpy, which is a highly optimized library for numerical operations using MATLAB-style syntax. All OpenCV array structures are converted to Numpy arrays. This also makes it easier to integrate with other libraries that use Numpy (such as SciPy and Matplotlib).
 -------------------------------------------------------------------------------------------------------------------------------------
 # [Comment Translate] Google
 
@@ -40,7 +40,7 @@ Previous knowledge of Python and Numpy is recommended, as this guide will not co
 
 This tutorial was originally started by Abid Rahman K. as part of the "Google Summer Code" project under the direction of Alexander Mordvintsev. 
 ________________________________________________________________________________________________________________________________________
-## OpenCV需要你！
+## OpenCV needs you!
 
 
 
@@ -51,9 +51,9 @@ As new modules are added to OpenCV-Python, this tutorial will have to be extende
 Remember, together we can make this project a complete success! 
 
 
-## 贡献者
+## Contributor
 
-以下是向OpenCV-Python提交教程的贡献者列表。
+The following is a list of contributors who submitted tutorials to OpenCV-Python.
 
 * Alexander Mordvintsev（GSoC-2013导师）
 * Abid Rahman K.（GSoC-2013实习生）
