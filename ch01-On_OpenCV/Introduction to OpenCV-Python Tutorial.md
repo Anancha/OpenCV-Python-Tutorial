@@ -60,6 +60,13 @@ ________________________________________________________________________________
 
 记住，我们一起可以使这个项目取得圆满成功！
 
+Since OpenCV is an open source project, everyone is welcome to contribute to the library, documentation and tutorials. If you find any errors in this tutorial (from minor spelling errors to serious errors in the code or concept), please feel free to correct them by cloning OpenCV in GitHub and submitting a citation request. The OpenCV developers will check your pull request and give you important feedback (once approved by the reviewers), it will be merged into OpenCV. Then you will become an open source contributor :-)
+
+As new modules are added to OpenCV-Python, this tutorial will have to be extended. If you are familiar with a specific algorithm and can write a tutorial that includes the basic principles of the algorithm and the code used by the example, please do so.
+
+Remember, together we can make this project a complete success! 
+
+
 ## 贡献者
 
 以下是向OpenCV-Python提交教程的贡献者列表。
