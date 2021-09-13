@@ -18,8 +18,8 @@ print(x + y)  # 250+10=260%256=4
 
 
 # 图像混合
-img1 = cv2.imread('../data/ml.png')
-img2 = cv2.imread('../data/opencv_logo.jpg')
+img1 = cv2.imread('data/ml.png')
+img2 = cv2.imread('data/opencv_logo.jpg')
 
 dst = cv2.addWeighted(img1, 0.7, img2, 0.3, 0)  # 第一幅图的权重是 0.7 第二幅图的权重是 0.3
 
