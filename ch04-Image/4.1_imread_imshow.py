@@ -8,9 +8,9 @@ import cv2
 print(cv2.__version__)
 
 
-# img = cv2.imread('messi5.jpg',cv2.IMREAD_COLOR)#读入一副彩色图像。图像的透明度会被忽略   默认参数。
-# img = cv2.imread('messi5.jpg', cv2.IMREAD_GRAYSCALE)# Load an color image in grayscale 灰度
-img = cv2.imread('messi5.jpg',cv2.IMREAD_UNCHANGED)#包括图像的 alpha 通道
+img = cv2.imread('data/messi5.jpg',cv2.IMREAD_COLOR) #Read in a color image. The transparency of the image will be ignored. Default parameters. 
+#img = cv2.imread('data/messi5.jpg', cv2.IMREAD_GRAYSCALE)# Load an color image in grayscale 灰度
+#img = cv2.imread('data/messi5.jpg',cv2.IMREAD_UNCHANGED) # Load an color image in grayscale 灰度
 
 img = cv2.resize(img, (640, 480))
 
@@ -19,8 +19,8 @@ img = cv2.resize(img, (640, 480))
 
 #
 rows,cols,ch=img.shape
-print('行/高:',rows,'列/宽:',cols,'通道:',ch)
-#图像的宽对应的是列数, 高对应的是行数。
+print('Row/High:',rows,'Column/wide:',cols,'channel:',ch)
+#The width of the image corresponds to the number of columns, and the height corresponds to the number of rows.
 
 cv2.namedWindow('image', cv2.WINDOW_NORMAL)#可以调整窗口大小
 # cv2.namedWindow('image', cv2.WINDOW_AUTOSIZE)#自动调整
