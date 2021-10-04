@@ -8,6 +8,9 @@ import numpy as np
 # res=img1+img
 # 两幅图像的大小 类型必须一致 ，或者第二个 图像可以使一个简单的标量值。
 
+# You can use the function cv2.add() to add two images. Of course, you can also use numpy directly.
+# res=img1+img
+# The size and type of the two images must be the same, or the second image can be a simple scalar value. 
 
 x = np.uint8([250])
 y = np.uint8([10])
